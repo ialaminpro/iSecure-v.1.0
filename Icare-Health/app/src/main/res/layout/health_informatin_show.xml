@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Health Information show"
+        android:id="@+id/textView15"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ff44c041" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="37dp"
+        android:id="@+id/scrollView"
+        android:background="#ffffffff"
+        android:fillViewport="false">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/scrollView">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Blood Pressure  :"
+                android:id="@+id/textView2"
+                android:layout_marginTop="49dp"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Stroke                  :"
+                android:id="@+id/textView6"
+                android:layout_marginLeft="8dp"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentStart="true"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Mental Health    :"
+                android:id="@+id/textView10"
+                android:layout_marginLeft="8dp"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentStart="true"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Injury                   :"
+                android:id="@+id/textView12"
+                android:layout_marginLeft="8dp"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentStart="true"
+                android:paddingTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/blood_pr"
+                android:layout_above="@+id/textView6"
+                android:layout_alignParentEnd="true"
+                android:layout_toEndOf="@+id/textView2"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/stroke_d"
+                android:layout_above="@+id/textView10"
+                android:layout_alignEnd="@+id/tvName"
+                android:layout_toEndOf="@+id/textView10"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/mant"
+                android:layout_alignBottom="@+id/textView10"
+                android:layout_alignStart="@+id/stroke_d"
+                android:layout_alignEnd="@+id/tvName"
+                android:gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:id="@+id/inju"
+                android:layout_alignBottom="@+id/textView12"
+                android:layout_alignStart="@+id/mant"
+                android:layout_alignEnd="@+id/tvName"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="back"
+                android:id="@+id/button7"
+                android:layout_below="@+id/textView12"
+                android:layout_toEndOf="@+id/textView12"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp" />
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

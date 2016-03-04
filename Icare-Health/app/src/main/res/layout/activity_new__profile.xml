@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="New Profile"
+        android:id="@+id/textView15"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ff44c041" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="37dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:background="#ffffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name      :"
+            android:id="@+id/textView2"
+            android:layout_marginTop="49dp"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Phone     :"
+            android:id="@+id/textView6"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gender    :"
+            android:id="@+id/textView10"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Blood      :"
+            android:id="@+id/textView12"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etName"
+            android:layout_above="@+id/textView6"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView10" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stroke_d"
+            android:layout_above="@+id/textView10"
+            android:layout_alignEnd="@+id/etName"
+            android:layout_toEndOf="@+id/textView10"
+            android:layout_below="@+id/etName" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etGender"
+            android:focusable="false"
+            android:layout_below="@+id/stroke_d"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_alignEnd="@+id/stroke_d"
+            android:layout_toEndOf="@+id/textView10" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/etBloodGroup"
+            android:focusable="false"
+            android:layout_below="@+id/textView10"
+            android:layout_alignEnd="@+id/etGender"
+            android:layout_toEndOf="@+id/textView10"
+            android:layout_alignBottom="@+id/textView12" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:id="@+id/button"
+            android:layout_below="@+id/etBloodGroup"
+            android:layout_toEndOf="@+id/button5"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="70dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BAck"
+            android:id="@+id/button5"
+            android:layout_marginStart="54dp"
+            android:layout_alignTop="@+id/button"
+            android:layout_alignStart="@+id/textView12" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

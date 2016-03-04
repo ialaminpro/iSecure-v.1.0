@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Doctor Profile"
+        android:id="@+id/textView15"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#ff44c041"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="37dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView15"
+        android:layout_alignStart="@+id/textView15">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:id="@+id/textView2"
+            android:layout_marginTop="49dp"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Qualification"
+            android:id="@+id/textView6"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Designation"
+            android:id="@+id/textView10"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/textView6"
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="EXpertise"
+            android:id="@+id/textView12"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/textView10"
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Organization"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView12"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Chamber"
+            android:id="@+id/textView5"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Location"
+            android:id="@+id/textView7"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Phone"
+            android:id="@+id/textView9"
+            android:layout_marginLeft="8dp"
+            android:paddingTop="20dp"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Name"
+            android:layout_above="@+id/textView6"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/textView3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Qualification"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignStart="@+id/et_Name"
+            android:layout_alignEnd="@+id/et_Name"
+            android:layout_below="@+id/et_Name" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Designation"
+            android:layout_alignBottom="@+id/textView10"
+            android:layout_alignEnd="@+id/et_Qualification"
+            android:layout_alignStart="@+id/et_Qualification"
+            android:layout_below="@+id/et_Qualification" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Expertise"
+            android:layout_alignBottom="@+id/textView12"
+            android:layout_alignEnd="@+id/et_Designation"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_below="@+id/et_Designation" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Organization"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignEnd="@+id/et_Expertise"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_below="@+id/et_Expertise" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Chamber"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignEnd="@+id/et_Organization"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_below="@+id/textView3" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Location"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignStart="@+id/et_Chamber"
+            android:layout_alignEnd="@+id/et_Chamber"
+            android:layout_below="@+id/et_Chamber" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_Phone"
+            android:layout_alignBottom="@+id/textView9"
+            android:layout_alignEnd="@+id/et_Location"
+            android:layout_alignTop="@+id/textView9"
+            android:layout_alignStart="@+id/et_Location" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"
+            android:id="@+id/btnDocUpdate"
+            android:layout_marginEnd="51dp"
+            android:layout_below="@+id/et_Phone"
+            android:layout_alignEnd="@+id/et_Phone" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:id="@+id/button6"
+            android:layout_alignTop="@+id/btnDocUpdate"
+            android:layout_toEndOf="@+id/textView9" />
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

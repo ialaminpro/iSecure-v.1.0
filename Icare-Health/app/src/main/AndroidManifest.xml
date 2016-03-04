@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.warriors.iCare_Health" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.shakil.iCare_Health.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.ProfileListActivity"
+            android:label="@string/app_name" >
+
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.New_Profile"
+            android:label="@string/title_activity_new__profile" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.Profile_Show"
+            android:label="@string/title_activity_profile__show" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.ProfileEditActivity"
+            android:label="@string/title_activity_profile_edit" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.New_Doctor"
+            android:label="@string/title_activity_new__doctor" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.DoctorList"
+            android:label="@string/title_activity_doctor_list" >
+
+        </activity>
+
+        <activity
+            android:name="com.shakil.iCare_Health.home"
+            android:label="@string/title_activity_home" >
+
+        </activity>
+
+        <activity
+            android:name="com.shakil.iCare_Health.Doctor_Show"
+            android:label="@string/title_activity_doctor__show" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.Doctor_Edit"
+            android:label="@string/title_activity_doctor__edit" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.activity_vaccination"
+            android:label="@string/title_activity_doctor__edit" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.newVaccination"
+            android:label="@string/title_activity_doctor__edit" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.new_health"
+            android:label="@string/title_activity_health__new" >
+
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.health_show"
+            android:label="@string/title_activity_health__show" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.Health_Edit"
+            android:label="@string/title_activity_health__edit" >
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.Dietadd"
+            android:label="@string/title_activity_diet__edit" >
+
+        </activity>
+        <activity
+            android:name="com.shakil.iCare_Health.Diet_show"
+            android:label="@string/title_activity_diet__show" >
+        </activity>
+    </application>
+
+</manifest>

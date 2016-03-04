@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/spy/Desktop/iCare Health jm/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/spy/Desktop/iCare Health jm/app/build/intermediates/pre-dexed/debug/classes-d998e63a75c115aa824830293a0213f51f8cc43f.jar" />
+    </item>
+    <item
+        jar="/home/spy/Desktop/iCare Health jm/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/spy/Desktop/iCare Health jm/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-ee635f2c447b595a78f486ba6ed1224ce4059fa8.jar" />
+    </item>
+    <item
+        jar="/home/spy/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/spy/Desktop/iCare Health jm/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-7a55a738b16be66629716294118513dc3e2fe4cc.jar" />
+    </item>
+    <item
+        jar="/home/spy/Desktop/iCare Health jm/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/spy/Desktop/iCare Health jm/app/build/intermediates/pre-dexed/debug/classes-859219a49d5e8f18c1d132055be59a63162e579e.jar" />
+    </item>
+
+</items>

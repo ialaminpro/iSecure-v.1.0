@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.shakil.iCare_Health.health_show">
+    <item android:id="@+id/action_edit_health" android:title="Edit"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_delete_health" android:title="Delete"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

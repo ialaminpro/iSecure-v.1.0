@@ -1,0 +1,247 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false"
+    android:background="#ff44c041">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:weightSum="1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:background="#ff44c041">
+
+
+
+
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnProfile"
+            android:layout_gravity="left|top"
+            android:src="@drawable/profile"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/textView4"
+            android:layout_alignStart="@+id/btnVaccination"
+            android:layout_margin="0dp" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnProfileList"
+            android:layout_gravity="left|top"
+            android:src="@drawable/personal"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_alignTop="@+id/btnProfile"
+            android:layout_alignStart="@+id/btnDoctor" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnHome"
+            android:layout_gravity="left|top"
+            android:src="@drawable/home"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/textView4"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnHealth"
+            android:layout_gravity="left|top"
+            android:src="@drawable/health"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_alignTop="@+id/btnVaccination"
+            android:layout_alignEnd="@+id/btnHome" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btngrowth"
+            android:layout_gravity="left|top"
+            android:src="@drawable/growth"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentStart="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btndiet"
+            android:layout_gravity="left|top"
+            android:src="@drawable/diet"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_alignTop="@+id/btnHelp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnHelp"
+            android:layout_gravity="left|top"
+            android:src="@drawable/help"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/textView22"
+            android:layout_alignParentEnd="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnVaccination"
+            android:layout_gravity="left|top"
+            android:src="@drawable/vaccination"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/textView16"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/btnDoctor"
+            android:layout_gravity="left|top"
+            android:src="@drawable/doctor"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/textView16"
+            android:layout_alignStart="@+id/btnHelp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Profile"
+            android:id="@+id/textView4"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btnProfile"
+            android:layout_alignEnd="@+id/btnProfile"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Vaccine"
+            android:id="@+id/textView16"
+            android:textSize="20dp"
+            android:layout_below="@+id/btnProfile"
+            android:layout_alignStart="@+id/btnVaccination"
+            android:layout_alignEnd="@+id/btnVaccination"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Diet"
+            android:id="@+id/textView22"
+            android:textSize="20dp"
+            android:layout_alignStart="@+id/btndiet"
+            android:layout_below="@+id/btnVaccination"
+            android:layout_alignEnd="@+id/btndiet"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Home"
+            android:id="@+id/textView"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/btnHome"
+            android:layout_alignEnd="@+id/btnHome"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="New Profile"
+            android:id="@+id/textView11"
+            android:textSize="20dp"
+            android:layout_above="@+id/btnProfileList"
+            android:layout_alignStart="@+id/btnProfileList"
+            android:layout_alignParentTop="true"
+            android:layout_alignEnd="@+id/btnProfileList"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Health"
+            android:id="@+id/textView14"
+            android:textSize="20dp"
+            android:layout_above="@+id/btnHealth"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView16"
+            android:layout_alignEnd="@+id/btnHealth"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Doctor"
+            android:id="@+id/textView18"
+            android:textSize="20dp"
+            android:layout_above="@+id/btnDoctor"
+            android:layout_alignStart="@+id/btnProfileList"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Growth"
+            android:id="@+id/textView20"
+            android:textSize="20dp"
+            android:layout_above="@+id/btngrowth"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView22"
+            android:layout_alignEnd="@+id/btngrowth"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="exit"
+            android:id="@+id/textView24"
+            android:textSize="20dp"
+            android:layout_above="@+id/btnHelp"
+            android:layout_alignStart="@+id/btnHelp"
+            android:gravity="center_horizontal"
+            android:layout_alignEnd="@+id/btnHelp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

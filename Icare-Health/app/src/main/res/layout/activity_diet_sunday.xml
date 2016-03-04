@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout2"
+        android:background="#ff44c041" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:id="@+id/button10"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="72dp"
+            android:background="#ff44c041" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EDIT"
+            android:id="@+id/button11"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/button10" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Breakfast"
+            android:id="@+id/textView36"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal"
+            android:background="#ff68d1ff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_below="@+id/textView36"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_below="@+id/editText"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText8"
+            android:layout_below="@+id/editText2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lunch"
+            android:id="@+id/textView37"
+            android:layout_below="@+id/editText8"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal"
+            android:background="#ff68d1ff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText9"
+            android:layout_below="@+id/textView37"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText10"
+            android:layout_below="@+id/editText9"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText11"
+            android:layout_below="@+id/editText10"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Dinner"
+            android:id="@+id/textView38"
+            android:layout_below="@+id/editText11"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_horizontal"
+            android:background="#ff68d1ff" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText12"
+            android:layout_below="@+id/textView38"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText13"
+            android:layout_below="@+id/editText12"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText14"
+            android:layout_below="@+id/editText13"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="item 3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:id="@+id/button12"
+            android:layout_below="@+id/editText14"
+            android:layout_centerHorizontal="true"
+            android:background="#ff44c041" />
+
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
