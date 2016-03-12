@@ -19,7 +19,7 @@ public class Call extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        number = "10921";
+        number = "01676789387";
         //For Call
         // add PhoneStateListener for monitoring
         MyPhoneListener phoneListener = new MyPhoneListener();
